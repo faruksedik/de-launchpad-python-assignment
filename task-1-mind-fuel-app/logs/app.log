@@ -1,0 +1,323 @@
+2025-11-01 13:47:06,613 - INFO - main - (<module>) - App started at 2025-11-01 13:47:06
+2025-11-01 13:47:06,614 - INFO - main - (setup_users) - Starting user setup...
+2025-11-01 13:47:06,742 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:06,776 - INFO - db - (init_db) - Table 'users' created or already exists.
+2025-11-01 13:47:06,790 - INFO - db - (init_db) - Table 'email_logs' created or already exists.
+2025-11-01 13:47:06,793 - INFO - db - (init_db) - Database initialized successfully.
+2025-11-01 13:47:06,842 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:06,849 - INFO - db - (add_user) - Added user 'faruksedik@yahoo.com' with ID 1.
+2025-11-01 13:47:06,852 - INFO - main - (setup_users) - User faruksedik@yahoo.com added successfully.
+2025-11-01 13:47:06,900 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:06,903 - INFO - db - (add_user) - Added user 'faruksedik@gmail.com' with ID 2.
+2025-11-01 13:47:06,904 - INFO - main - (setup_users) - User faruksedik@gmail.com added successfully.
+2025-11-01 13:47:06,947 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:06,949 - INFO - db - (add_user) - Added user 'sedikjafar@gmail.com' with ID 3.
+2025-11-01 13:47:06,951 - INFO - main - (setup_users) - User sedikjafar@gmail.com added successfully.
+2025-11-01 13:47:06,990 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:06,993 - INFO - db - (add_user) - Added user 'matthewtoba5@gmail.com' with ID 4.
+2025-11-01 13:47:06,994 - INFO - main - (setup_users) - User matthewtoba5@gmail.com added successfully.
+2025-11-01 13:47:06,995 - INFO - main - (setup_users) - All users added successfully.
+2025-11-01 13:47:06,995 - INFO - main - (setup_users) - User setup completed successfully.
+2025-11-01 13:47:06,996 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Started ===
+2025-11-01 13:47:06,996 - INFO - quotes - (fetch_quotes) - Starting fetch from ZenQuotes API (limit=20, timeout=10s)...
+2025-11-01 13:47:08,398 - INFO - quotes - (fetch_quotes) - Successfully fetched 20 quotes from ZenQuotes API.
+2025-11-01 13:47:08,404 - INFO - main - (run_quote_dispatch) - Fetched 20 quotes successfully from ZenQuotes API.
+2025-11-01 13:47:08,406 - INFO - main - (run_quote_dispatch) - Sending daily quotes...
+2025-11-01 13:47:08,408 - INFO - email_sender - (send_emails_to_subscribers) - Starting daily email delivery process...
+2025-11-01 13:47:08,544 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:08,553 - INFO - db - (get_eligible_subscribers) - Fetched 3 eligible subscribers for frequency 'daily'.
+2025-11-01 13:47:08,555 - INFO - email_sender - (send_emails_to_subscribers) - Found 3 eligible daily subscribers.
+2025-11-01 13:47:08,556 - INFO - quotes - (get_random_quote) - Selected random quote by 'Richard Bach': "The more I want to get something done, the less I call it work."
+2025-11-01 13:47:08,557 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@yahoo.com' (User ID: 1).
+2025-11-01 13:47:12,627 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@yahoo.com (attempt 1).
+2025-11-01 13:47:12,757 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:12,772 - INFO - db - (log_email) - Email log created for 'faruksedik@yahoo.com' (status=sent, attempt=1). Log ID: 1
+2025-11-01 13:47:12,904 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:12,913 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=1.
+2025-11-01 13:47:12,919 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@yahoo.com
+2025-11-01 13:47:12,920 - INFO - quotes - (get_random_quote) - Selected random quote by 'Norman Vincent Peale': "Self-knowledge is the beginning of self-correction."
+2025-11-01 13:47:12,922 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@gmail.com' (User ID: 2).
+2025-11-01 13:47:23,612 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@gmail.com (attempt 1).
+2025-11-01 13:47:23,741 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:23,754 - INFO - db - (log_email) - Email log created for 'faruksedik@gmail.com' (status=sent, attempt=1). Log ID: 2
+2025-11-01 13:47:23,874 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:23,882 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=2.
+2025-11-01 13:47:23,887 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@gmail.com
+2025-11-01 13:47:23,889 - INFO - quotes - (get_random_quote) - Selected random quote by 'Deepak Chopra': "There is no right or wrong, only a series of possibilities that shift with each thought, feeling, and action that you experience."
+2025-11-01 13:47:23,891 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'matthewtoba5@gmail.com' (User ID: 4).
+2025-11-01 13:47:29,502 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to matthewtoba5@gmail.com (attempt 1).
+2025-11-01 13:47:29,631 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:29,642 - INFO - db - (log_email) - Email log created for 'matthewtoba5@gmail.com' (status=sent, attempt=1). Log ID: 3
+2025-11-01 13:47:29,761 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:29,769 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=4.
+2025-11-01 13:47:29,774 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to matthewtoba5@gmail.com
+2025-11-01 13:47:29,776 - INFO - email_sender - (send_emails_to_subscribers) - Daily email summary: 3 sent, 0 failed.
+2025-11-01 13:47:29,777 - INFO - main - (run_quote_dispatch) - Sending weekly quotes...
+2025-11-01 13:47:29,779 - INFO - email_sender - (send_emails_to_subscribers) - Starting weekly email delivery process...
+2025-11-01 13:47:29,892 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:29,902 - INFO - db - (get_eligible_subscribers) - Fetched 1 eligible subscribers for frequency 'weekly'.
+2025-11-01 13:47:29,903 - INFO - email_sender - (send_emails_to_subscribers) - Found 1 eligible weekly subscribers.
+2025-11-01 13:47:29,905 - INFO - quotes - (get_random_quote) - Selected random quote by 'Deepak Chopra': "There is no right or wrong, only a series of possibilities that shift with each thought, feeling, and action that you experience."
+2025-11-01 13:47:29,907 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'sedikjafar@gmail.com' (User ID: 3).
+2025-11-01 13:47:36,029 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to sedikjafar@gmail.com (attempt 1).
+2025-11-01 13:47:36,161 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:36,174 - INFO - db - (log_email) - Email log created for 'sedikjafar@gmail.com' (status=sent, attempt=1). Log ID: 4
+2025-11-01 13:47:36,289 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:36,293 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=3.
+2025-11-01 13:47:36,295 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to sedikjafar@gmail.com
+2025-11-01 13:47:36,296 - INFO - email_sender - (send_emails_to_subscribers) - Weekly email summary: 1 sent, 0 failed.
+2025-11-01 13:47:36,297 - INFO - main - (run_quote_dispatch) - Sending summary email to admin...
+2025-11-01 13:47:36,297 - INFO - email_sender - (send_summary_to_admin) - Generating daily summary report for 2025-11-01...
+2025-11-01 13:47:36,339 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-01 13:47:36,342 - INFO - db - (get_logs_for_date) - Retrieved 4 log(s) for date 2025-11-01.
+2025-11-01 13:47:36,343 - INFO - email_sender - (send_summary_to_admin) - Fetched 4 log entries for 2025-11-01. Sent: 4, Failed: 0
+2025-11-01 13:47:36,345 - INFO - email_sender - (send_summary_to_admin) - Attempting to send summary email to admin: faruksedik@yahoo.com
+2025-11-01 13:47:40,691 - INFO - email_sender - (send_summary_to_admin) - Summary email successfully sent to admin faruksedik@yahoo.com
+2025-11-01 13:47:40,693 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
+2025-11-01 13:47:40,695 - INFO - main - (<module>) - App finished at 2025-11-01 13:47:40 (Runtime: 34.08s)
+
+
+2025-11-02 14:31:46,887 - INFO - main - (<module>) - App started at 2025-11-02 14:31:46
+2025-11-02 14:31:46,888 - INFO - main - (setup_users) - Starting user setup...
+2025-11-02 14:31:47,065 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:47,088 - INFO - db - (init_db) - Table 'users' created or already exists.
+2025-11-02 14:31:47,089 - INFO - db - (init_db) - Table 'email_logs' created or already exists.
+2025-11-02 14:31:47,089 - INFO - db - (init_db) - Database initialized successfully.
+2025-11-02 14:31:47,122 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:47,170 - INFO - main - (setup_users) - User faruksedik@yahoo.com added successfully.
+2025-11-02 14:31:47,201 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:47,204 - INFO - main - (setup_users) - User faruksedik@gmail.com added successfully.
+2025-11-02 14:31:47,236 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:47,239 - INFO - main - (setup_users) - User sedikjafar@gmail.com added successfully.
+2025-11-02 14:31:47,385 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:47,388 - INFO - main - (setup_users) - User matthewtoba5@gmail.com added successfully.
+2025-11-02 14:31:47,388 - INFO - main - (setup_users) - All users added successfully.
+2025-11-02 14:31:47,388 - INFO - main - (setup_users) - User setup completed successfully.
+2025-11-02 14:31:47,389 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Started ===
+2025-11-02 14:31:47,389 - INFO - quotes - (fetch_quotes) - Starting fetch from ZenQuotes API (limit=20, timeout=10s)...
+2025-11-02 14:31:49,146 - INFO - quotes - (fetch_quotes) - Successfully fetched 20 quotes from ZenQuotes API.
+2025-11-02 14:31:49,151 - INFO - main - (run_quote_dispatch) - Fetched 20 quotes successfully from ZenQuotes API.
+2025-11-02 14:31:49,152 - INFO - main - (run_quote_dispatch) - Sending daily quotes...
+2025-11-02 14:31:49,154 - INFO - email_sender - (send_emails_to_subscribers) - Starting daily email delivery process...
+2025-11-02 14:31:49,195 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:49,210 - INFO - db - (get_eligible_subscribers) - Fetched 3 eligible subscribers for frequency 'daily'.
+2025-11-02 14:31:49,211 - INFO - email_sender - (send_emails_to_subscribers) - Found 3 eligible daily subscribers.
+2025-11-02 14:31:49,211 - INFO - quotes - (get_random_quote) - Selected random quote by 'Oprah Winfrey': "Surround yourself with only people who are going to lift you higher."
+2025-11-02 14:31:49,211 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@yahoo.com' (User ID: 1).
+2025-11-02 14:31:54,630 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@yahoo.com (attempt 1).
+2025-11-02 14:31:54,679 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:54,695 - INFO - db - (log_email) - Email log created for 'faruksedik@yahoo.com' (status=sent, attempt=1). Log ID: 5
+2025-11-02 14:31:54,727 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:31:54,730 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=1.
+2025-11-02 14:31:54,731 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@yahoo.com
+2025-11-02 14:31:54,732 - INFO - quotes - (get_random_quote) - Selected random quote by 'Zen Proverb': "Obstacles don't block the path, they are the path."
+2025-11-02 14:31:54,732 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@gmail.com' (User ID: 2).
+2025-11-02 14:32:21,240 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@gmail.com (attempt 1).
+2025-11-02 14:32:21,278 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:32:21,282 - INFO - db - (log_email) - Email log created for 'faruksedik@gmail.com' (status=sent, attempt=1). Log ID: 6
+2025-11-02 14:32:21,314 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:32:21,316 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=2.
+2025-11-02 14:32:21,317 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@gmail.com
+2025-11-02 14:32:21,317 - INFO - quotes - (get_random_quote) - Selected random quote by 'Aristotle': "It is during our darkest moments that we must focus to see the light."
+2025-11-02 14:32:21,318 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'matthewtoba5@gmail.com' (User ID: 4).
+2025-11-02 14:32:25,087 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to matthewtoba5@gmail.com (attempt 1).
+2025-11-02 14:32:25,143 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:32:25,147 - INFO - db - (log_email) - Email log created for 'matthewtoba5@gmail.com' (status=sent, attempt=1). Log ID: 7
+2025-11-02 14:32:25,180 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:32:25,183 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=4.
+2025-11-02 14:32:25,184 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to matthewtoba5@gmail.com
+2025-11-02 14:32:25,185 - INFO - email_sender - (send_emails_to_subscribers) - Daily email summary: 3 sent, 0 failed.
+2025-11-02 14:32:25,185 - INFO - main - (run_quote_dispatch) - Sending weekly quotes...
+2025-11-02 14:32:25,185 - INFO - email_sender - (send_emails_to_subscribers) - Starting weekly email delivery process...
+2025-11-02 14:32:25,215 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:32:25,218 - INFO - db - (get_eligible_subscribers) - Fetched 0 eligible subscribers for frequency 'weekly'.
+2025-11-02 14:32:25,218 - WARNING - email_sender - (send_emails_to_subscribers) - No active weekly subscribers found.
+2025-11-02 14:32:25,219 - INFO - main - (run_quote_dispatch) - Sending summary email to admin...
+2025-11-02 14:32:25,219 - INFO - email_sender - (send_summary_to_admin) - Generating daily summary report for 2025-11-02...
+2025-11-02 14:32:25,251 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-02 14:32:25,255 - INFO - db - (get_logs_for_date) - Retrieved 3 log(s) for date 2025-11-02.
+2025-11-02 14:32:25,255 - INFO - email_sender - (send_summary_to_admin) - Fetched 3 log entries for 2025-11-02. Sent: 3, Failed: 0
+2025-11-02 14:32:25,257 - INFO - email_sender - (send_summary_to_admin) - Attempting to send summary email to admin: faruksedik@yahoo.com
+2025-11-02 14:32:29,185 - INFO - email_sender - (send_summary_to_admin) - Summary email successfully sent to admin faruksedik@yahoo.com
+2025-11-02 14:32:29,186 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
+2025-11-02 14:32:29,188 - INFO - main - (<module>) - App finished at 2025-11-02 14:32:29 (Runtime: 42.30s)
+
+2025-11-06 13:40:44,295 - INFO - main - (<module>) - App started at 2025-11-06 13:40:44
+2025-11-06 13:40:44,296 - INFO - main - (setup_users) - Starting user setup...
+2025-11-06 13:40:44,753 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:44,766 - INFO - db - (init_db) - Table 'users' created or already exists.
+2025-11-06 13:40:44,767 - INFO - db - (init_db) - Table 'email_logs' created or already exists.
+2025-11-06 13:40:44,770 - INFO - db - (init_db) - Database initialized successfully.
+2025-11-06 13:40:44,826 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:44,872 - INFO - main - (setup_users) - User faruksedik@yahoo.com added successfully.
+2025-11-06 13:40:44,915 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:44,919 - INFO - main - (setup_users) - User faruksedik@gmail.com added successfully.
+2025-11-06 13:40:44,961 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:44,966 - INFO - main - (setup_users) - User sedikjafar@gmail.com added successfully.
+2025-11-06 13:40:45,120 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:45,124 - INFO - main - (setup_users) - User matthewtoba5@gmail.com added successfully.
+2025-11-06 13:40:45,124 - INFO - main - (setup_users) - All users added successfully.
+2025-11-06 13:40:45,124 - INFO - main - (setup_users) - User setup completed successfully.
+2025-11-06 13:40:45,125 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Started ===
+2025-11-06 13:40:45,125 - INFO - quotes - (fetch_quotes) - Starting fetch from ZenQuotes API (limit=20, timeout=10s)...
+2025-11-06 13:40:48,472 - INFO - quotes - (fetch_quotes) - Successfully fetched 20 quotes from ZenQuotes API.
+2025-11-06 13:40:48,473 - INFO - main - (run_quote_dispatch) - Fetched 20 quotes successfully from ZenQuotes API.
+2025-11-06 13:40:48,474 - INFO - main - (run_quote_dispatch) - Sending daily quotes...
+2025-11-06 13:40:48,474 - INFO - email_sender - (send_emails_to_subscribers) - Starting daily email delivery process...
+2025-11-06 13:40:48,514 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:48,525 - INFO - db - (get_eligible_subscribers) - Fetched 3 eligible subscribers for frequency 'daily'.
+2025-11-06 13:40:48,526 - INFO - email_sender - (send_emails_to_subscribers) - Found 3 eligible daily subscribers.
+2025-11-06 13:40:48,526 - INFO - quotes - (get_random_quote) - Selected random quote by 'Jack Butcher': "Productize your perspective."
+2025-11-06 13:40:48,527 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@yahoo.com' (User ID: 1).
+2025-11-06 13:40:57,664 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@yahoo.com (attempt 1).
+2025-11-06 13:40:57,705 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:57,719 - INFO - db - (log_email) - Email log created for 'faruksedik@yahoo.com' (status=sent, attempt=1). Log ID: 5
+2025-11-06 13:40:57,758 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:40:57,765 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=1.
+2025-11-06 13:40:57,767 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@yahoo.com
+2025-11-06 13:40:57,767 - INFO - quotes - (get_random_quote) - Selected random quote by 'Amelia Earhart': "Honor is the foundation of courage."
+2025-11-06 13:40:57,768 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@gmail.com' (User ID: 2).
+2025-11-06 13:41:01,652 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@gmail.com (attempt 1).
+2025-11-06 13:41:01,790 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:41:01,796 - INFO - db - (log_email) - Email log created for 'faruksedik@gmail.com' (status=sent, attempt=1). Log ID: 6
+2025-11-06 13:41:01,835 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:41:01,839 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=2.
+2025-11-06 13:41:01,840 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@gmail.com
+2025-11-06 13:41:01,840 - INFO - quotes - (get_random_quote) - Selected random quote by 'Edgar Allan Poe': "Words have no power to impress the mind without the exquisite horror of their reality."
+2025-11-06 13:41:01,841 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'matthewtoba5@gmail.com' (User ID: 4).
+2025-11-06 13:41:05,007 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to matthewtoba5@gmail.com (attempt 1).
+2025-11-06 13:41:05,144 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:41:05,149 - INFO - db - (log_email) - Email log created for 'matthewtoba5@gmail.com' (status=sent, attempt=1). Log ID: 7
+2025-11-06 13:41:05,190 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:41:05,193 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=4.
+2025-11-06 13:41:05,194 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to matthewtoba5@gmail.com
+2025-11-06 13:41:05,194 - INFO - email_sender - (send_emails_to_subscribers) - Daily email summary: 3 sent, 0 failed.
+2025-11-06 13:41:05,195 - INFO - main - (run_quote_dispatch) - Sending weekly quotes...
+2025-11-06 13:41:05,195 - INFO - email_sender - (send_emails_to_subscribers) - Starting weekly email delivery process...
+2025-11-06 13:41:05,233 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:41:05,237 - INFO - db - (get_eligible_subscribers) - Fetched 0 eligible subscribers for frequency 'weekly'.
+2025-11-06 13:41:05,237 - WARNING - email_sender - (send_emails_to_subscribers) - No active weekly subscribers found.
+2025-11-06 13:41:05,238 - INFO - main - (run_quote_dispatch) - Sending summary email to admin...
+2025-11-06 13:41:05,238 - INFO - email_sender - (send_summary_to_admin) - Generating daily summary report for 2025-11-06...
+2025-11-06 13:41:05,275 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-06 13:41:05,280 - INFO - db - (get_logs_for_date) - Retrieved 3 log(s) for date 2025-11-06.
+2025-11-06 13:41:05,280 - INFO - email_sender - (send_summary_to_admin) - Fetched 3 log entries for 2025-11-06. Sent: 3, Failed: 0
+2025-11-06 13:41:05,282 - INFO - email_sender - (send_summary_to_admin) - Attempting to send summary email to admin: faruksedik@yahoo.com
+2025-11-06 13:41:08,251 - INFO - email_sender - (send_summary_to_admin) - Summary email successfully sent to admin faruksedik@yahoo.com
+2025-11-06 13:41:08,252 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
+2025-11-06 13:41:08,252 - INFO - main - (<module>) - App finished at 2025-11-06 13:41:08 (Runtime: 23.96s)
+2025-11-09 07:00:01,936 - INFO - main - (<module>) - App started at 2025-11-09 07:00:01
+2025-11-09 07:00:01,936 - INFO - main - (setup_users) - Starting user setup...
+2025-11-09 07:00:02,050 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:02,079 - INFO - db - (init_db) - Table 'users' created or already exists.
+2025-11-09 07:00:02,081 - INFO - db - (init_db) - Table 'email_logs' created or already exists.
+2025-11-09 07:00:02,081 - INFO - db - (init_db) - Database initialized successfully.
+2025-11-09 07:00:02,122 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:02,186 - INFO - main - (setup_users) - User faruksedik@yahoo.com added successfully.
+2025-11-09 07:00:02,413 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:02,428 - INFO - main - (setup_users) - User faruksedik@gmail.com added successfully.
+2025-11-09 07:00:02,566 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:02,581 - INFO - main - (setup_users) - User sedikjafar@gmail.com added successfully.
+2025-11-09 07:00:02,700 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:02,712 - INFO - main - (setup_users) - User matthewtoba5@gmail.com added successfully.
+2025-11-09 07:00:02,713 - INFO - main - (setup_users) - All users added successfully.
+2025-11-09 07:00:02,715 - INFO - main - (setup_users) - User setup completed successfully.
+2025-11-09 07:00:02,716 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Started ===
+2025-11-09 07:00:02,717 - INFO - quotes - (fetch_quotes) - Starting fetch from ZenQuotes API (limit=20, timeout=10s)...
+2025-11-09 07:00:04,615 - INFO - quotes - (fetch_quotes) - Successfully fetched 20 quotes from ZenQuotes API.
+2025-11-09 07:00:04,626 - INFO - main - (run_quote_dispatch) - Fetched 20 quotes successfully from ZenQuotes API.
+2025-11-09 07:00:04,628 - INFO - main - (run_quote_dispatch) - Sending daily quotes...
+2025-11-09 07:00:04,629 - INFO - email_sender - (send_emails_to_subscribers) - Starting daily email delivery process...
+2025-11-09 07:00:04,764 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:04,802 - INFO - db - (get_eligible_subscribers) - Fetched 3 eligible subscribers for frequency 'daily'.
+2025-11-09 07:00:04,804 - INFO - email_sender - (send_emails_to_subscribers) - Found 3 eligible daily subscribers.
+2025-11-09 07:00:04,806 - INFO - quotes - (get_random_quote) - Selected random quote by 'Zen Proverb': "Even if you stumble and fall down, it doesn't mean you've chosen the wrong path."
+2025-11-09 07:00:04,808 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@yahoo.com' (User ID: 1).
+2025-11-09 07:00:08,475 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@yahoo.com (attempt 1).
+2025-11-09 07:00:08,605 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:08,646 - INFO - db - (log_email) - Email log created for 'faruksedik@yahoo.com' (status=sent, attempt=1). Log ID: 8
+2025-11-09 07:00:08,769 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:08,782 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=1.
+2025-11-09 07:00:08,785 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@yahoo.com
+2025-11-09 07:00:08,787 - INFO - quotes - (get_random_quote) - Selected random quote by 'J.R.R. Tolkien': "Not all those who wander are lost."
+2025-11-09 07:00:08,789 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@gmail.com' (User ID: 2).
+2025-11-09 07:00:11,991 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@gmail.com (attempt 1).
+2025-11-09 07:00:12,117 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:12,130 - INFO - db - (log_email) - Email log created for 'faruksedik@gmail.com' (status=sent, attempt=1). Log ID: 9
+2025-11-09 07:00:12,243 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:12,252 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=2.
+2025-11-09 07:00:12,256 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@gmail.com
+2025-11-09 07:00:12,257 - INFO - quotes - (get_random_quote) - Selected random quote by 'James Allen': "You will never do anything in this world without courage. It is the greatest quality of the mind next to honor."
+2025-11-09 07:00:12,259 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'matthewtoba5@gmail.com' (User ID: 4).
+2025-11-09 07:00:15,335 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to matthewtoba5@gmail.com (attempt 1).
+2025-11-09 07:00:15,376 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:15,380 - INFO - db - (log_email) - Email log created for 'matthewtoba5@gmail.com' (status=sent, attempt=1). Log ID: 10
+2025-11-09 07:00:15,528 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:15,532 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=4.
+2025-11-09 07:00:15,535 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to matthewtoba5@gmail.com
+2025-11-09 07:00:15,536 - INFO - email_sender - (send_emails_to_subscribers) - Daily email summary: 3 sent, 0 failed.
+2025-11-09 07:00:15,536 - INFO - main - (run_quote_dispatch) - Sending weekly quotes...
+2025-11-09 07:00:15,537 - INFO - email_sender - (send_emails_to_subscribers) - Starting weekly email delivery process...
+2025-11-09 07:00:15,582 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:15,586 - INFO - db - (get_eligible_subscribers) - Fetched 0 eligible subscribers for frequency 'weekly'.
+2025-11-09 07:00:15,587 - WARNING - email_sender - (send_emails_to_subscribers) - No active weekly subscribers found.
+2025-11-09 07:00:15,587 - INFO - main - (run_quote_dispatch) - Sending summary email to admin...
+2025-11-09 07:00:15,588 - INFO - email_sender - (send_summary_to_admin) - Generating daily summary report for 2025-11-09...
+2025-11-09 07:00:15,631 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 07:00:15,640 - INFO - db - (get_logs_for_date) - Retrieved 3 log(s) for date 2025-11-09.
+2025-11-09 07:00:15,640 - INFO - email_sender - (send_summary_to_admin) - Fetched 3 log entries for 2025-11-09. Sent: 3, Failed: 0
+2025-11-09 07:00:15,642 - INFO - email_sender - (send_summary_to_admin) - Attempting to send summary email to admin: faruksedik@yahoo.com
+2025-11-09 07:00:18,908 - INFO - email_sender - (send_summary_to_admin) - Summary email successfully sent to admin faruksedik@yahoo.com
+2025-11-09 07:00:18,909 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
+2025-11-09 07:00:18,910 - INFO - main - (<module>) - App finished at 2025-11-09 07:00:18 (Runtime: 16.98s)
+
+2025-11-09 20:23:13,417 - INFO - main - (<module>) - App started at 2025-11-09 20:23:13
+2025-11-09 20:23:13,418 - INFO - main - (setup_users) - Starting user setup...
+2025-11-09 20:23:13,511 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:13,535 - INFO - db - (init_db) - Table 'users' created or already exists.
+2025-11-09 20:23:13,536 - INFO - db - (init_db) - Table 'email_logs' created or already exists.
+2025-11-09 20:23:13,536 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-09 20:23:13,536 - INFO - db - (init_db) - Database initialized successfully.
+2025-11-09 20:23:13,572 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:13,587 - INFO - db - (add_user) - ℹUser 'faruksedik@yahoo.com' already exists. No insertion made.
+2025-11-09 20:23:13,589 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-09 20:23:13,589 - INFO - main - (setup_users) - User faruksedik@yahoo.com added successfully.
+2025-11-09 20:23:13,628 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:13,629 - INFO - db - (add_user) - ℹUser 'faruksedik@gmail.com' already exists. No insertion made.
+2025-11-09 20:23:13,630 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-09 20:23:13,630 - INFO - main - (setup_users) - User faruksedik@gmail.com added successfully.
+2025-11-09 20:23:13,664 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:13,666 - INFO - db - (add_user) - ℹUser 'sedikjafar@gmail.com' already exists. No insertion made.
+2025-11-09 20:23:13,666 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-09 20:23:13,666 - INFO - main - (setup_users) - User sedikjafar@gmail.com added successfully.
+2025-11-09 20:23:13,701 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:13,702 - INFO - db - (add_user) - ℹUser 'matthewtoba5@gmail.com' already exists. No insertion made.
+2025-11-09 20:23:13,702 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-09 20:23:13,703 - INFO - main - (setup_users) - User matthewtoba5@gmail.com added successfully.
+2025-11-09 20:23:13,703 - INFO - main - (setup_users) - All users added successfully.
+2025-11-09 20:23:13,703 - INFO - main - (setup_users) - User setup completed successfully.
+2025-11-09 20:23:13,704 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Started ===
+2025-11-09 20:23:13,704 - INFO - quotes - (fetch_quotes) - Starting fetch from ZenQuotes API (limit=20, timeout=10s)...
+2025-11-09 20:23:15,307 - DEBUG - quotes - (fetch_quotes) - API request sent to https://zenquotes.io/api/quotes/. Status code: 200
+2025-11-09 20:23:15,308 - DEBUG - quotes - (fetch_quotes) - ZenQuotes API response successfully parsed as JSON.
+2025-11-09 20:23:15,309 - INFO - quotes - (fetch_quotes) - Successfully fetched 20 quotes from ZenQuotes API.
+2025-11-09 20:23:15,311 - INFO - main - (run_quote_dispatch) - Fetched 20 quotes successfully from ZenQuotes API.
+2025-11-09 20:23:15,312 - INFO - main - (run_quote_dispatch) - Sending daily quotes...
+2025-11-09 20:23:15,312 - INFO - email_sender - (send_emails_to_subscribers) - Starting daily email delivery process...
+2025-11-09 20:23:15,352 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:15,397 - INFO - db - (get_eligible_subscribers) - Fetched 0 eligible subscribers for frequency 'daily'.
+2025-11-09 20:23:15,397 - WARNING - email_sender - (send_emails_to_subscribers) - No active daily subscribers found.
+2025-11-09 20:23:15,398 - INFO - main - (run_quote_dispatch) - Sending weekly quotes...
+2025-11-09 20:23:15,398 - INFO - email_sender - (send_emails_to_subscribers) - Starting weekly email delivery process...
+2025-11-09 20:23:15,438 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:15,441 - INFO - db - (get_eligible_subscribers) - Fetched 0 eligible subscribers for frequency 'weekly'.
+2025-11-09 20:23:15,442 - WARNING - email_sender - (send_emails_to_subscribers) - No active weekly subscribers found.
+2025-11-09 20:23:15,442 - INFO - main - (run_quote_dispatch) - Sending summary email to admin...
+2025-11-09 20:23:15,442 - INFO - email_sender - (send_summary_to_admin) - Generating daily summary report for 2025-11-09...
+2025-11-09 20:23:15,480 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-09 20:23:15,489 - INFO - db - (get_logs_for_date) - Retrieved 3 log(s) for date 2025-11-09.
+2025-11-09 20:23:15,489 - INFO - email_sender - (send_summary_to_admin) - Fetched 3 log entries for 2025-11-09. Sent: 3, Failed: 0
+2025-11-09 20:23:15,501 - INFO - email_sender - (send_summary_to_admin) - Attempting to send summary email to admin: faruksedik@yahoo.com
+2025-11-09 20:23:18,935 - INFO - email_sender - (send_summary_to_admin) - Summary email successfully sent to admin faruksedik@yahoo.com
+2025-11-09 20:23:18,935 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
+2025-11-09 20:23:18,936 - INFO - main - (<module>) - App finished at 2025-11-09 20:23:18 (Runtime: 5.52s)

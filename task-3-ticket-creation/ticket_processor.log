@@ -1,0 +1,726 @@
+2025-11-06 14:04:04,500 - INFO - __main__ - Starting run. last_run_date=None
+2025-11-06 14:04:04,501 - INFO - jira_helpers - Fetching form definition from https://api.atlassian.com/jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form
+2025-11-06 14:04:34,566 - INFO - __main__ - Starting run. last_run_date=None
+2025-11-06 14:04:34,567 - INFO - jira_helpers - Fetching form definition from https://api.atlassian.com/jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form
+2025-11-06 14:04:35,236 - INFO - db_helpers - Fetched 2 rows from DB
+2025-11-06 14:04:35,237 - INFO - jira_helpers - Creating Jira request: Phone equipment request - Courtney Rivera
+2025-11-06 14:04:37,699 - INFO - processor - Created Jira request CJP-13 for courtney.rivera@example.com
+2025-11-06 14:04:37,700 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:04:37,702 - INFO - jira_helpers - Creating Jira request: Phone equipment request - Tammy Smith
+2025-11-06 14:04:39,370 - INFO - processor - Created Jira request CJP-14 for tammy.smith@example.com
+2025-11-06 14:04:39,372 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:04:39,373 - INFO - tracking_manager - Finalized tracking: last_run_date=2025-11-06 processed_emails_same_date=['courtney.rivera@example.com', 'tammy.smith@example.com']
+2025-11-06 14:04:39,374 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:04:39,375 - INFO - __main__ - Run complete.
+2025-11-06 14:07:44,628 - INFO - __main__ - Starting run. last_run_date=2025-11-06
+2025-11-06 14:07:44,628 - INFO - jira_helpers - Fetching form definition from https://api.atlassian.com/jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form
+2025-11-06 14:07:45,963 - INFO - db_helpers - Fetched 3 rows from DB
+2025-11-06 14:07:45,964 - INFO - tracking_manager - Skipping already processed same-date email: courtney.rivera@example.com
+2025-11-06 14:07:45,965 - INFO - tracking_manager - Skipping already processed same-date email: tammy.smith@example.com
+2025-11-06 14:07:45,965 - INFO - jira_helpers - Creating Jira request: Phone equipment request - Ehundayo Rotimi
+2025-11-06 14:07:49,461 - INFO - processor - Created Jira request CJP-15 for ekundayo.rotimi@example.com
+2025-11-06 14:07:49,463 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:07:49,464 - INFO - tracking_manager - Finalized tracking: last_run_date=2025-11-06 processed_emails_same_date=['ekundayo.rotimi@example.com']
+2025-11-06 14:07:49,465 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:07:49,466 - INFO - __main__ - Run complete.
+2025-11-06 14:14:13,408 - INFO - __main__ - Starting run. last_run_date=2025-11-06
+2025-11-06 14:14:13,409 - INFO - jira_helpers - Fetching form definition from https://api.atlassian.com/jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form
+2025-11-06 14:14:14,923 - DEBUG - db_helpers - DB connection established successfully.
+2025-11-06 14:14:14,929 - INFO - db_helpers - Fetched 3 rows from DB
+2025-11-06 14:14:14,931 - DEBUG - db_helpers - DB connection closed.
+2025-11-06 14:14:14,932 - INFO - tracking_manager - Skipping already processed same-date email: ekundayo.rotimi@example.com
+2025-11-06 14:14:14,934 - INFO - processor - Email courtney.rivera@example.com already has issue; skipping
+2025-11-06 14:14:14,937 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:14:14,939 - INFO - processor - Email tammy.smith@example.com already has issue; skipping
+2025-11-06 14:14:14,942 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:14:14,943 - INFO - tracking_manager - Finalized tracking: last_run_date=2025-11-06 processed_emails_same_date=[]
+2025-11-06 14:14:14,948 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-06 14:14:14,950 - INFO - __main__ - Run complete.
+2025-11-08 13:10:22,211 - INFO - __main__ - Starting run. last_run_date=2025-11-06
+2025-11-08 13:10:22,212 - INFO - jira_helpers - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-08 13:10:24,031 - DEBUG - db_helpers - DB connection established successfully.
+2025-11-08 13:10:24,151 - INFO - db_helpers - Fetched 3 rows from DB
+2025-11-08 13:10:24,154 - DEBUG - db_helpers - DB connection closed.
+2025-11-08 13:10:24,155 - INFO - processor - Email courtney.rivera@example.com already has issue; skipping
+2025-11-08 13:10:24,159 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-08 13:10:24,162 - INFO - processor - Email tammy.smith@example.com already has issue; skipping
+2025-11-08 13:10:24,167 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-08 13:10:24,169 - INFO - processor - Email ekundayo.rotimi@example.com already has issue; skipping
+2025-11-08 13:10:24,173 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-08 13:10:24,175 - INFO - tracking_manager - Finalized tracking: last_run_date=2025-11-08 processed_emails_same_date=[]
+2025-11-08 13:10:24,180 - INFO - state_manager - Tracking written to C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-08 13:10:24,182 - INFO - __main__ - Run complete.
+2025-11-08 14:22:54,022 - INFO - __main__ - Starting run. last_run_date=2025-11-08
+2025-11-08 14:22:54,022 - INFO - jira_helpers - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-08 14:22:55,385 - DEBUG - db_helpers - DB connection established successfully.
+2025-11-08 14:22:55,422 - INFO - db_helpers - Fetched 0 rows from DB
+2025-11-08 14:22:55,423 - DEBUG - db_helpers - DB connection closed.
+2025-11-08 14:22:55,423 - INFO - __main__ - No rows to process. Exiting.
+2025-11-08 14:23:30,058 - INFO - __main__ - Starting run. last_run_date=2025-11-08
+2025-11-08 14:23:30,059 - INFO - jira_helpers - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-08 14:23:31,235 - DEBUG - db_helpers - DB connection established successfully.
+2025-11-08 14:23:31,237 - INFO - db_helpers - Fetched 0 rows from DB
+2025-11-08 14:23:31,238 - DEBUG - db_helpers - DB connection closed.
+2025-11-08 14:23:31,238 - INFO - __main__ - No rows to process. Exiting.
+2025-11-08 14:26:17,157 - INFO - __main__ - Starting run. last_run_date=2025-11-08
+2025-11-08 14:26:17,158 - INFO - jira_helpers - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-08 14:26:18,275 - DEBUG - db_helpers - DB connection established successfully.
+2025-11-08 14:26:18,276 - INFO - db_helpers - Fetched 0 rows from DB
+2025-11-08 14:26:18,277 - DEBUG - db_helpers - DB connection closed.
+2025-11-08 14:26:18,277 - INFO - __main__ - No rows to process. Exiting.
+2025-11-09 06:53:11,650 - INFO - __main__ - Starting run. last_run_date=2025-11-08
+2025-11-09 06:53:11,650 - INFO - jira_helpers - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-09 06:53:11,661 - WARNING - jira_helpers - Attempt 1/3: Network/API error occurred -> HTTPSConnectionPool(host='api.atlassian.com', port=443): Max retries exceeded with url: /jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018EC0937810>: Failed to resolve 'api.atlassian.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-09 06:53:11,664 - WARNING - jira_helpers - Attempt 2/3: Network/API error occurred -> HTTPSConnectionPool(host='api.atlassian.com', port=443): Max retries exceeded with url: /jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018EC09521D0>: Failed to resolve 'api.atlassian.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-09 06:53:11,667 - WARNING - jira_helpers - Attempt 3/3: Network/API error occurred -> HTTPSConnectionPool(host='api.atlassian.com', port=443): Max retries exceeded with url: /jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000018EC0A24210>: Failed to resolve 'api.atlassian.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-09 06:53:11,668 - ERROR - jira_helpers - Failed to fetch form definition after 3 attempts: https://api.atlassian.com/jira/forms/cloud/7d56c4ce-b220-43fd-a305-2677ee7a03a1/servicedesk/3/requesttype/10010/form
+2025-11-09 07:03:44,892 - INFO - __main__ - main - Starting run. last_run_date=2025-11-08
+2025-11-09 07:03:44,892 - INFO - jira_helpers - fetch_form_definition_cloud - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-09 07:03:46,625 - DEBUG - db_helpers - get_conn - DB connection established successfully.
+2025-11-09 07:03:46,636 - INFO - db_helpers - fetch_rows_on_or_after - Fetched 0 rows from DB
+2025-11-09 07:03:46,638 - DEBUG - db_helpers - get_conn - DB connection closed.
+2025-11-09 07:03:46,640 - INFO - __main__ - main - No rows to process. Exiting.
+2025-11-09 07:05:39,853 - INFO - __main__ - (main) - Starting run. last_run_date=2025-11-08
+2025-11-09 07:05:39,854 - INFO - jira_helpers - (fetch_form_definition_cloud) - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-09 07:05:41,215 - DEBUG - db_helpers - (get_conn) - DB connection established successfully.
+2025-11-09 07:05:41,221 - INFO - db_helpers - (fetch_rows_on_or_after) - Fetched 0 rows from DB
+2025-11-09 07:05:41,223 - DEBUG - db_helpers - (get_conn) - DB connection closed.
+2025-11-09 07:05:41,224 - INFO - __main__ - (main) - No rows to process. Exiting.
+2025-11-09 17:09:20,701 - INFO - __main__ - (main) - Starting run. last_run_date=2025-11-08
+2025-11-09 17:09:20,701 - INFO - jira_helpers - (fetch_form_definition_cloud) - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-09 17:09:23,604 - DEBUG - db_helpers - (get_conn) - DB connection established successfully.
+2025-11-09 17:09:23,671 - INFO - db_helpers - (fetch_rows_on_or_after) - Fetched 0 rows from DB
+2025-11-09 17:09:23,674 - DEBUG - db_helpers - (get_conn) - DB connection closed.
+2025-11-09 17:09:23,675 - INFO - __main__ - (main) - No rows to process. Exiting.
+2025-11-09 20:45:42,570 - INFO - __main__ - (main) - Starting run. last_run_date=2025-11-08
+2025-11-09 20:45:42,571 - INFO - jira_helpers - (fetch_form_definition_cloud) - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-09 20:45:44,306 - DEBUG - db_helpers - (get_conn) - DB connection established successfully.
+2025-11-09 20:45:44,315 - INFO - db_helpers - (fetch_rows_on_or_after) - Fetched 0 rows from DB
+2025-11-09 20:45:44,315 - DEBUG - db_helpers - (get_conn) - DB connection closed.
+2025-11-09 20:45:44,316 - INFO - __main__ - (main) - No rows to process. Exiting.
+
+2025-11-09 20:50:25,489 - ERROR - state_manager - (read_tracking) - Failed to read tracking file. Returning safe default state.
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\state_manager.py", line 38, in read_tracking
+    data = json.load(fh)
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-11-09 20:50:25,512 - INFO - __main__ - (main) - Starting run. last_run_date=None
+2025-11-09 20:50:25,512 - INFO - jira_helpers - (fetch_form_definition_cloud) - [Form Fetch] Fetching form definition -> Cloud=7d56c4ce-b220-43fd-a305-2677ee7a03a1, Desk=3, Type=10010
+2025-11-09 20:50:28,979 - DEBUG - db_helpers - (get_conn) - DB connection established successfully.
+2025-11-09 20:50:30,208 - INFO - db_helpers - (fetch_rows_on_or_after) - Fetched 200 rows from DB
+2025-11-09 20:50:30,210 - DEBUG - db_helpers - (get_conn) - DB connection closed.
+2025-11-09 20:50:30,213 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Courtney Rivera
+2025-11-09 20:50:33,328 - INFO - processor - (process_row) - Created Jira request CJP-16 for courtney.rivera@example.com
+2025-11-09 20:50:33,329 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:33,330 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Tammy Smith
+2025-11-09 20:50:35,255 - INFO - processor - (process_row) - Created Jira request CJP-17 for tammy.smith@example.com
+2025-11-09 20:50:35,256 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:35,257 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Erica Hill
+2025-11-09 20:50:37,046 - INFO - processor - (process_row) - Created Jira request CJP-18 for erica.hill@example.com
+2025-11-09 20:50:37,047 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:37,048 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Amy Turner
+2025-11-09 20:50:39,171 - INFO - processor - (process_row) - Created Jira request CJP-19 for amy.turner@example.com
+2025-11-09 20:50:39,171 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:39,172 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Sara Curtis
+2025-11-09 20:50:41,011 - INFO - processor - (process_row) - Created Jira request CJP-20 for sara.curtis@example.com
+2025-11-09 20:50:41,012 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:41,013 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Brent Anderson
+2025-11-09 20:50:42,814 - INFO - processor - (process_row) - Created Jira request CJP-21 for brent.anderson@example.com
+2025-11-09 20:50:42,815 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:42,816 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Charles Smith
+2025-11-09 20:50:44,692 - INFO - processor - (process_row) - Created Jira request CJP-22 for charles.smith@example.com
+2025-11-09 20:50:44,693 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:44,694 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Allison Barnes
+2025-11-09 20:50:46,499 - INFO - processor - (process_row) - Created Jira request CJP-23 for allison.barnes@example.com
+2025-11-09 20:50:46,500 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:46,501 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Lee Martinez
+2025-11-09 20:50:48,298 - INFO - processor - (process_row) - Created Jira request CJP-24 for lee.martinez@example.com
+2025-11-09 20:50:48,298 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:48,300 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Colleen Dawson
+2025-11-09 20:50:50,453 - INFO - processor - (process_row) - Created Jira request CJP-25 for colleen.dawson@example.com
+2025-11-09 20:50:50,456 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:50,458 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jason Rivera
+2025-11-09 20:50:52,425 - INFO - processor - (process_row) - Created Jira request CJP-26 for jason.rivera@example.com
+2025-11-09 20:50:52,425 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:52,426 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Charles Davis
+2025-11-09 20:50:54,480 - INFO - processor - (process_row) - Created Jira request CJP-27 for charles.davis@example.com
+2025-11-09 20:50:54,480 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:54,481 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Stephen Bennett
+2025-11-09 20:50:56,110 - INFO - processor - (process_row) - Created Jira request CJP-28 for stephen.bennett@example.com
+2025-11-09 20:50:56,111 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:56,112 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Douglas Mccoy
+2025-11-09 20:50:57,718 - INFO - processor - (process_row) - Created Jira request CJP-29 for douglas.mccoy@example.com
+2025-11-09 20:50:57,720 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:57,721 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Mark Smith
+2025-11-09 20:50:59,572 - INFO - processor - (process_row) - Created Jira request CJP-30 for mark.smith@example.com
+2025-11-09 20:50:59,576 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:50:59,578 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Laura Jackson
+2025-11-09 20:51:01,310 - INFO - processor - (process_row) - Created Jira request CJP-31 for laura.jackson@example.com
+2025-11-09 20:51:01,311 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:01,312 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Joseph Ochoa
+2025-11-09 20:51:03,133 - INFO - processor - (process_row) - Created Jira request CJP-32 for joseph.ochoa@example.com
+2025-11-09 20:51:03,134 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:03,135 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Morgan Lloyd
+2025-11-09 20:51:04,850 - INFO - processor - (process_row) - Created Jira request CJP-33 for morgan.lloyd@example.com
+2025-11-09 20:51:04,851 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:04,852 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Hannah Martin DDS
+2025-11-09 20:51:06,533 - INFO - processor - (process_row) - Created Jira request CJP-34 for hannah.martin.dds@example.com
+2025-11-09 20:51:06,535 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:06,536 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Elizabeth Gordon
+2025-11-09 20:51:08,221 - INFO - processor - (process_row) - Created Jira request CJP-35 for elizabeth.gordon@example.com
+2025-11-09 20:51:08,223 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:08,224 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Patrick Brown
+2025-11-09 20:51:09,803 - INFO - processor - (process_row) - Created Jira request CJP-36 for patrick.brown@example.com
+2025-11-09 20:51:09,804 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:09,805 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Corey Mclean
+2025-11-09 20:51:11,531 - INFO - processor - (process_row) - Created Jira request CJP-37 for corey.mclean@example.com
+2025-11-09 20:51:11,532 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:11,533 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michelle Kelley
+2025-11-09 20:51:13,250 - INFO - processor - (process_row) - Created Jira request CJP-38 for michelle.kelley@example.com
+2025-11-09 20:51:13,251 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:13,252 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Victor Soto
+2025-11-09 20:51:15,028 - INFO - processor - (process_row) - Created Jira request CJP-39 for victor.soto@example.com
+2025-11-09 20:51:15,029 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:15,030 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Mark Terry
+2025-11-09 20:51:16,793 - INFO - processor - (process_row) - Created Jira request CJP-40 for mark.terry@example.com
+2025-11-09 20:51:16,797 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:16,799 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Amber Lewis
+2025-11-09 20:51:18,413 - INFO - processor - (process_row) - Created Jira request CJP-41 for amber.lewis@example.com
+2025-11-09 20:51:18,416 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:18,418 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Christina Carpenter
+2025-11-09 20:51:20,443 - INFO - processor - (process_row) - Created Jira request CJP-42 for christina.carpenter@example.com
+2025-11-09 20:51:20,444 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:20,445 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Katrina Conner
+2025-11-09 20:51:22,552 - INFO - processor - (process_row) - Created Jira request CJP-43 for katrina.conner@example.com
+2025-11-09 20:51:22,553 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:22,554 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Erik Wells
+2025-11-09 20:51:24,730 - INFO - processor - (process_row) - Created Jira request CJP-44 for erik.wells@example.com
+2025-11-09 20:51:24,731 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:24,732 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Wendy Curtis
+2025-11-09 20:51:26,611 - INFO - processor - (process_row) - Created Jira request CJP-45 for wendy.curtis@example.com
+2025-11-09 20:51:26,615 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:26,618 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michael Ingram
+2025-11-09 20:51:28,370 - INFO - processor - (process_row) - Created Jira request CJP-46 for michael.ingram@example.com
+2025-11-09 20:51:28,371 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:28,372 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Charles White
+2025-11-09 20:51:30,126 - INFO - processor - (process_row) - Created Jira request CJP-47 for charles.white@example.com
+2025-11-09 20:51:30,127 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:30,128 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Lisa Henderson
+2025-11-09 20:51:31,839 - INFO - processor - (process_row) - Created Jira request CJP-48 for lisa.henderson@example.com
+2025-11-09 20:51:31,840 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:31,841 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Claudia Harrison
+2025-11-09 20:51:33,335 - INFO - processor - (process_row) - Created Jira request CJP-49 for claudia.harrison@example.com
+2025-11-09 20:51:33,336 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:33,337 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Mr. Alexander Barnes
+2025-11-09 20:51:34,969 - INFO - processor - (process_row) - Created Jira request CJP-50 for mr..alexander.barnes@example.com
+2025-11-09 20:51:34,970 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:34,972 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Brian Campbell
+2025-11-09 20:51:36,648 - INFO - processor - (process_row) - Created Jira request CJP-51 for brian.campbell@example.com
+2025-11-09 20:51:36,649 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:36,650 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Robert Anderson
+2025-11-09 20:51:38,298 - INFO - processor - (process_row) - Created Jira request CJP-52 for robert.anderson@example.com
+2025-11-09 20:51:38,299 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:38,300 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Chelsea Stephens
+2025-11-09 20:51:40,086 - INFO - processor - (process_row) - Created Jira request CJP-53 for chelsea.stephens@example.com
+2025-11-09 20:51:40,087 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:40,088 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jessica Archer
+2025-11-09 20:51:42,046 - INFO - processor - (process_row) - Created Jira request CJP-54 for jessica.archer@example.com
+2025-11-09 20:51:42,047 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:42,048 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Andrew Fernandez
+2025-11-09 20:51:43,730 - INFO - processor - (process_row) - Created Jira request CJP-55 for andrew.fernandez@example.com
+2025-11-09 20:51:43,732 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:43,733 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Robert Fuller
+2025-11-09 20:51:45,341 - INFO - processor - (process_row) - Created Jira request CJP-56 for robert.fuller@example.com
+2025-11-09 20:51:45,344 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:45,347 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Krystal Diaz MD
+2025-11-09 20:51:47,087 - INFO - processor - (process_row) - Created Jira request CJP-57 for krystal.diaz.md@example.com
+2025-11-09 20:51:47,090 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:47,091 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Cheryl Allen
+2025-11-09 20:51:48,822 - INFO - processor - (process_row) - Created Jira request CJP-58 for cheryl.allen@example.com
+2025-11-09 20:51:48,824 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:48,825 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Stephanie Irwin
+2025-11-09 20:51:50,450 - INFO - processor - (process_row) - Created Jira request CJP-59 for stephanie.irwin@example.com
+2025-11-09 20:51:50,452 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:50,452 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Patricia Montgomery
+2025-11-09 20:51:52,207 - INFO - processor - (process_row) - Created Jira request CJP-60 for patricia.montgomery@example.com
+2025-11-09 20:51:52,208 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:52,208 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - David Stevens
+2025-11-09 20:51:53,903 - INFO - processor - (process_row) - Created Jira request CJP-61 for david.stevens@example.com
+2025-11-09 20:51:53,904 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:53,905 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Dawn Davis
+2025-11-09 20:51:55,728 - INFO - processor - (process_row) - Created Jira request CJP-62 for dawn.davis@example.com
+2025-11-09 20:51:55,729 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:55,731 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Ronald Williams
+2025-11-09 20:51:57,489 - INFO - processor - (process_row) - Created Jira request CJP-63 for ronald.williams@example.com
+2025-11-09 20:51:57,490 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:57,491 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Anita Holden
+2025-11-09 20:51:59,292 - INFO - processor - (process_row) - Created Jira request CJP-64 for anita.holden@example.com
+2025-11-09 20:51:59,293 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:51:59,294 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michele Logan DDS
+2025-11-09 20:52:01,060 - INFO - processor - (process_row) - Created Jira request CJP-65 for michele.logan.dds@example.com
+2025-11-09 20:52:01,061 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:01,062 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Karla Rose
+2025-11-09 20:52:02,937 - INFO - processor - (process_row) - Created Jira request CJP-66 for karla.rose@example.com
+2025-11-09 20:52:02,938 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:02,939 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Judy Villegas
+2025-11-09 20:52:04,846 - INFO - processor - (process_row) - Created Jira request CJP-67 for judy.villegas@example.com
+2025-11-09 20:52:04,848 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:04,849 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Cory Sanchez
+2025-11-09 20:52:06,455 - INFO - processor - (process_row) - Created Jira request CJP-68 for cory.sanchez@example.com
+2025-11-09 20:52:06,457 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:06,458 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - William Holloway
+2025-11-09 20:52:08,096 - INFO - processor - (process_row) - Created Jira request CJP-69 for william.holloway@example.com
+2025-11-09 20:52:08,098 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:08,099 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - John Smith
+2025-11-09 20:52:09,805 - INFO - processor - (process_row) - Created Jira request CJP-70 for john.smith@example.com
+2025-11-09 20:52:09,806 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:09,807 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Robert Lopez
+2025-11-09 20:52:11,570 - INFO - processor - (process_row) - Created Jira request CJP-71 for robert.lopez@example.com
+2025-11-09 20:52:11,571 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:11,572 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jacob Cantu
+2025-11-09 20:52:13,287 - INFO - processor - (process_row) - Created Jira request CJP-72 for jacob.cantu@example.com
+2025-11-09 20:52:13,288 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:13,289 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Brian Soto
+2025-11-09 20:52:15,043 - INFO - processor - (process_row) - Created Jira request CJP-73 for brian.soto@example.com
+2025-11-09 20:52:15,044 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:15,045 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Mr. Michael Fitzgerald DVM
+2025-11-09 20:52:16,632 - INFO - processor - (process_row) - Created Jira request CJP-74 for mr..michael.fitzgerald.dvm@example.com
+2025-11-09 20:52:16,634 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:16,636 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Beth Bowman
+2025-11-09 20:52:18,330 - INFO - processor - (process_row) - Created Jira request CJP-75 for beth.bowman@example.com
+2025-11-09 20:52:18,331 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:18,332 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Benjamin Beck
+2025-11-09 20:52:20,111 - INFO - processor - (process_row) - Created Jira request CJP-76 for benjamin.beck@example.com
+2025-11-09 20:52:20,112 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:20,113 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Joshua Walls
+2025-11-09 20:52:21,896 - INFO - processor - (process_row) - Created Jira request CJP-77 for joshua.walls@example.com
+2025-11-09 20:52:21,899 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:21,900 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Karen Russell
+2025-11-09 20:52:23,928 - INFO - processor - (process_row) - Created Jira request CJP-78 for karen.russell@example.com
+2025-11-09 20:52:23,930 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:23,930 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jordan Miranda
+2025-11-09 20:52:25,669 - INFO - processor - (process_row) - Created Jira request CJP-79 for jordan.miranda@example.com
+2025-11-09 20:52:25,670 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:25,671 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Felicia Hall
+2025-11-09 20:52:27,569 - INFO - processor - (process_row) - Created Jira request CJP-80 for felicia.hall@example.com
+2025-11-09 20:52:27,570 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:27,571 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Laura Smith
+2025-11-09 20:52:29,495 - INFO - processor - (process_row) - Created Jira request CJP-81 for laura.smith@example.com
+2025-11-09 20:52:29,496 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:29,497 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Crystal Glass
+2025-11-09 20:52:31,248 - INFO - processor - (process_row) - Created Jira request CJP-82 for crystal.glass@example.com
+2025-11-09 20:52:31,249 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:31,250 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Louis Butler
+2025-11-09 20:52:33,046 - INFO - processor - (process_row) - Created Jira request CJP-83 for louis.butler@example.com
+2025-11-09 20:52:33,049 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:33,050 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kathryn Hartman
+2025-11-09 20:52:34,539 - INFO - processor - (process_row) - Created Jira request CJP-84 for kathryn.hartman@example.com
+2025-11-09 20:52:34,540 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:34,541 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Julie Cole
+2025-11-09 20:52:36,207 - INFO - processor - (process_row) - Created Jira request CJP-85 for julie.cole@example.com
+2025-11-09 20:52:36,209 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:36,209 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Amy Johnson
+2025-11-09 20:52:38,025 - INFO - processor - (process_row) - Created Jira request CJP-86 for amy.johnson@example.com
+2025-11-09 20:52:38,026 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:38,026 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Sarah Holloway
+2025-11-09 20:52:39,736 - INFO - processor - (process_row) - Created Jira request CJP-87 for sarah.holloway@example.com
+2025-11-09 20:52:39,737 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:39,738 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - John Torres
+2025-11-09 20:52:41,359 - INFO - processor - (process_row) - Created Jira request CJP-88 for john.torres@example.com
+2025-11-09 20:52:41,363 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:41,365 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jared Wood
+2025-11-09 20:52:43,263 - INFO - processor - (process_row) - Created Jira request CJP-89 for jared.wood@example.com
+2025-11-09 20:52:43,265 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:43,266 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Terri Hunt
+2025-11-09 20:52:45,328 - INFO - processor - (process_row) - Created Jira request CJP-90 for terri.hunt@example.com
+2025-11-09 20:52:45,329 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:45,330 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - William Williams
+2025-11-09 20:52:46,949 - INFO - processor - (process_row) - Created Jira request CJP-91 for william.williams@example.com
+2025-11-09 20:52:46,950 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:46,951 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Christopher Garcia
+2025-11-09 20:52:48,739 - INFO - processor - (process_row) - Created Jira request CJP-92 for christopher.garcia@example.com
+2025-11-09 20:52:48,740 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:48,740 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Marcus Jones
+2025-11-09 20:52:50,502 - INFO - processor - (process_row) - Created Jira request CJP-93 for marcus.jones@example.com
+2025-11-09 20:52:50,503 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:50,504 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Vickie Vargas
+2025-11-09 20:52:52,209 - INFO - processor - (process_row) - Created Jira request CJP-94 for vickie.vargas@example.com
+2025-11-09 20:52:52,212 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:52,214 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Chris Moreno
+2025-11-09 20:52:53,907 - INFO - processor - (process_row) - Created Jira request CJP-95 for chris.moreno@example.com
+2025-11-09 20:52:53,908 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:53,908 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michael Jackson
+2025-11-09 20:52:55,539 - INFO - processor - (process_row) - Created Jira request CJP-96 for michael.jackson@example.com
+2025-11-09 20:52:55,540 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:55,541 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Dustin Khan
+2025-11-09 20:52:57,091 - INFO - processor - (process_row) - Created Jira request CJP-97 for dustin.khan@example.com
+2025-11-09 20:52:57,092 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:57,093 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Lynn Robertson
+2025-11-09 20:52:58,783 - INFO - processor - (process_row) - Created Jira request CJP-98 for lynn.robertson@example.com
+2025-11-09 20:52:58,787 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:52:58,790 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Dana Adams DDS
+2025-11-09 20:53:00,593 - INFO - processor - (process_row) - Created Jira request CJP-99 for dana.adams.dds@example.com
+2025-11-09 20:53:00,594 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:00,596 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Christopher Wilson
+2025-11-09 20:53:02,614 - INFO - processor - (process_row) - Created Jira request CJP-100 for christopher.wilson@example.com
+2025-11-09 20:53:02,615 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:02,616 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jillian Hall
+2025-11-09 20:53:04,282 - INFO - processor - (process_row) - Created Jira request CJP-101 for jillian.hall@example.com
+2025-11-09 20:53:04,283 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:04,284 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Stephanie Smith
+2025-11-09 20:53:05,814 - INFO - processor - (process_row) - Created Jira request CJP-102 for stephanie.smith@example.com
+2025-11-09 20:53:05,816 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:05,817 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Alexandra Rios
+2025-11-09 20:53:07,916 - INFO - processor - (process_row) - Created Jira request CJP-103 for alexandra.rios@example.com
+2025-11-09 20:53:07,917 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:07,918 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Vanessa Mcdowell
+2025-11-09 20:53:09,609 - INFO - processor - (process_row) - Created Jira request CJP-104 for vanessa.mcdowell@example.com
+2025-11-09 20:53:09,610 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:09,611 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Sarah Campbell
+2025-11-09 20:53:11,259 - INFO - processor - (process_row) - Created Jira request CJP-105 for sarah.campbell@example.com
+2025-11-09 20:53:11,261 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:11,262 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Nathaniel Chambers
+2025-11-09 20:53:12,819 - INFO - processor - (process_row) - Created Jira request CJP-106 for nathaniel.chambers@example.com
+2025-11-09 20:53:12,820 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:12,821 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Cathy Smith
+2025-11-09 20:53:14,650 - INFO - processor - (process_row) - Created Jira request CJP-107 for cathy.smith@example.com
+2025-11-09 20:53:14,651 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:14,652 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Brianna Lynch
+2025-11-09 20:53:16,720 - INFO - processor - (process_row) - Created Jira request CJP-108 for brianna.lynch@example.com
+2025-11-09 20:53:16,721 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:16,722 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Lisa Carter
+2025-11-09 20:53:18,464 - INFO - processor - (process_row) - Created Jira request CJP-109 for lisa.carter@example.com
+2025-11-09 20:53:18,465 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:18,466 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Summer Leach
+2025-11-09 20:53:20,153 - INFO - processor - (process_row) - Created Jira request CJP-110 for summer.leach@example.com
+2025-11-09 20:53:20,154 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:20,155 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Randall Lawson
+2025-11-09 20:53:22,009 - INFO - processor - (process_row) - Created Jira request CJP-111 for randall.lawson@example.com
+2025-11-09 20:53:22,011 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:22,012 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Larry Nelson
+2025-11-09 20:53:24,090 - INFO - processor - (process_row) - Created Jira request CJP-112 for larry.nelson@example.com
+2025-11-09 20:53:24,091 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:24,092 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Cristian Gilmore
+2025-11-09 20:53:25,779 - INFO - processor - (process_row) - Created Jira request CJP-113 for cristian.gilmore@example.com
+2025-11-09 20:53:25,780 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:25,781 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Sherri Leblanc
+2025-11-09 20:53:27,579 - INFO - processor - (process_row) - Created Jira request CJP-114 for sherri.leblanc@example.com
+2025-11-09 20:53:27,581 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:27,582 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Wendy Fuentes
+2025-11-09 20:53:29,533 - INFO - processor - (process_row) - Created Jira request CJP-115 for wendy.fuentes@example.com
+2025-11-09 20:53:29,534 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:29,536 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Dylan Reyes
+2025-11-09 20:53:31,252 - INFO - processor - (process_row) - Created Jira request CJP-116 for dylan.reyes@example.com
+2025-11-09 20:53:31,253 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:31,254 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Gina Figueroa
+2025-11-09 20:53:32,914 - INFO - processor - (process_row) - Created Jira request CJP-117 for gina.figueroa@example.com
+2025-11-09 20:53:32,915 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:32,916 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Christopher Escobar
+2025-11-09 20:53:34,549 - INFO - processor - (process_row) - Created Jira request CJP-118 for christopher.escobar@example.com
+2025-11-09 20:53:34,551 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:34,552 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Dustin Adkins MD
+2025-11-09 20:53:36,267 - INFO - processor - (process_row) - Created Jira request CJP-119 for dustin.adkins.md@example.com
+2025-11-09 20:53:36,271 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:36,274 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kyle Middleton
+2025-11-09 20:53:38,337 - INFO - processor - (process_row) - Created Jira request CJP-120 for kyle.middleton@example.com
+2025-11-09 20:53:38,339 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:38,340 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Benjamin Ward
+2025-11-09 20:53:40,274 - INFO - processor - (process_row) - Created Jira request CJP-121 for benjamin.ward@example.com
+2025-11-09 20:53:40,275 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:40,276 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kenneth Price
+2025-11-09 20:53:41,937 - INFO - processor - (process_row) - Created Jira request CJP-122 for kenneth.price@example.com
+2025-11-09 20:53:41,939 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:41,940 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Lindsey King
+2025-11-09 20:53:44,054 - INFO - processor - (process_row) - Created Jira request CJP-123 for lindsey.king@example.com
+2025-11-09 20:53:44,055 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:44,055 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Susan Ali
+2025-11-09 20:53:45,851 - INFO - processor - (process_row) - Created Jira request CJP-124 for susan.ali@example.com
+2025-11-09 20:53:45,852 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:45,853 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Philip Lee
+2025-11-09 20:53:47,734 - INFO - processor - (process_row) - Created Jira request CJP-125 for philip.lee@example.com
+2025-11-09 20:53:47,734 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:47,736 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Deanna Nguyen
+2025-11-09 20:53:49,809 - INFO - processor - (process_row) - Created Jira request CJP-126 for deanna.nguyen@example.com
+2025-11-09 20:53:49,811 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:49,811 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Tommy Mendez
+2025-11-09 20:53:51,418 - INFO - processor - (process_row) - Created Jira request CJP-127 for tommy.mendez@example.com
+2025-11-09 20:53:51,419 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:51,419 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Steven Moss
+2025-11-09 20:53:53,334 - INFO - processor - (process_row) - Created Jira request CJP-128 for steven.moss@example.com
+2025-11-09 20:53:53,336 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:53,337 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Andrea Jensen
+2025-11-09 20:53:55,091 - INFO - processor - (process_row) - Created Jira request CJP-129 for andrea.jensen@example.com
+2025-11-09 20:53:55,093 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:55,093 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kayla Daniels
+2025-11-09 20:53:56,690 - INFO - processor - (process_row) - Created Jira request CJP-130 for kayla.daniels@example.com
+2025-11-09 20:53:56,691 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:56,692 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - David Miller
+2025-11-09 20:53:58,820 - INFO - processor - (process_row) - Created Jira request CJP-131 for david.miller@example.com
+2025-11-09 20:53:58,822 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:53:58,823 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Elizabeth Myers
+2025-11-09 20:54:00,526 - INFO - processor - (process_row) - Created Jira request CJP-132 for elizabeth.myers@example.com
+2025-11-09 20:54:00,527 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:00,528 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Lucas Williams
+2025-11-09 20:54:02,453 - INFO - processor - (process_row) - Created Jira request CJP-133 for lucas.williams@example.com
+2025-11-09 20:54:02,454 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:02,455 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kevin White
+2025-11-09 20:54:04,263 - INFO - processor - (process_row) - Created Jira request CJP-134 for kevin.white@example.com
+2025-11-09 20:54:04,264 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:04,265 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Derek Daniels
+2025-11-09 20:54:05,932 - INFO - processor - (process_row) - Created Jira request CJP-135 for derek.daniels@example.com
+2025-11-09 20:54:05,933 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:05,934 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Ronald Anderson
+2025-11-09 20:54:07,741 - INFO - processor - (process_row) - Created Jira request CJP-136 for ronald.anderson@example.com
+2025-11-09 20:54:07,742 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:07,743 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jennifer Gill
+2025-11-09 20:54:09,365 - INFO - processor - (process_row) - Created Jira request CJP-137 for jennifer.gill@example.com
+2025-11-09 20:54:09,366 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:09,367 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Emily Allison
+2025-11-09 20:54:11,093 - INFO - processor - (process_row) - Created Jira request CJP-138 for emily.allison@example.com
+2025-11-09 20:54:11,095 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:11,097 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Tammy Thompson
+2025-11-09 20:54:13,010 - INFO - processor - (process_row) - Created Jira request CJP-139 for tammy.thompson@example.com
+2025-11-09 20:54:13,011 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:13,012 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Colleen Watson
+2025-11-09 20:54:14,677 - INFO - processor - (process_row) - Created Jira request CJP-140 for colleen.watson@example.com
+2025-11-09 20:54:14,679 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:14,679 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Roger Harris
+2025-11-09 20:54:16,695 - INFO - processor - (process_row) - Created Jira request CJP-141 for roger.harris@example.com
+2025-11-09 20:54:16,696 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:16,697 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Amanda Watkins
+2025-11-09 20:54:18,813 - INFO - processor - (process_row) - Created Jira request CJP-142 for amanda.watkins@example.com
+2025-11-09 20:54:18,815 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:18,816 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kimberly Edwards
+2025-11-09 20:54:20,851 - INFO - processor - (process_row) - Created Jira request CJP-143 for kimberly.edwards@example.com
+2025-11-09 20:54:20,853 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:20,854 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kevin Lopez
+2025-11-09 20:54:22,696 - INFO - processor - (process_row) - Created Jira request CJP-144 for kevin.lopez@example.com
+2025-11-09 20:54:22,700 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:22,703 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Robert Smith MD
+2025-11-09 20:54:24,575 - INFO - processor - (process_row) - Created Jira request CJP-145 for robert.smith.md@example.com
+2025-11-09 20:54:24,576 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:24,577 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Lisa Gonzalez
+2025-11-09 20:54:26,347 - INFO - processor - (process_row) - Created Jira request CJP-146 for lisa.gonzalez@example.com
+2025-11-09 20:54:26,349 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:26,350 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Zachary Mcneil
+2025-11-09 20:54:28,047 - INFO - processor - (process_row) - Created Jira request CJP-147 for zachary.mcneil@example.com
+2025-11-09 20:54:28,048 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:28,049 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Javier Brown
+2025-11-09 20:54:29,822 - INFO - processor - (process_row) - Created Jira request CJP-148 for javier.brown@example.com
+2025-11-09 20:54:29,823 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:29,824 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Mary Wilson
+2025-11-09 20:54:31,491 - INFO - processor - (process_row) - Created Jira request CJP-149 for mary.wilson@example.com
+2025-11-09 20:54:31,492 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:31,492 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Becky Ellison
+2025-11-09 20:54:33,400 - INFO - processor - (process_row) - Created Jira request CJP-150 for becky.ellison@example.com
+2025-11-09 20:54:33,402 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:33,403 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Patrick Jones
+2025-11-09 20:54:35,256 - INFO - processor - (process_row) - Created Jira request CJP-151 for patrick.jones@example.com
+2025-11-09 20:54:35,260 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:35,263 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Christopher Cochran
+2025-11-09 20:54:36,951 - INFO - processor - (process_row) - Created Jira request CJP-152 for christopher.cochran@example.com
+2025-11-09 20:54:36,955 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:36,958 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Peter Bell
+2025-11-09 20:54:38,772 - INFO - processor - (process_row) - Created Jira request CJP-153 for peter.bell@example.com
+2025-11-09 20:54:38,773 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:38,774 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - James Williams
+2025-11-09 20:54:40,941 - INFO - processor - (process_row) - Created Jira request CJP-154 for james.williams@example.com
+2025-11-09 20:54:40,943 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:40,944 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Regina Alexander
+2025-11-09 20:54:42,731 - INFO - processor - (process_row) - Created Jira request CJP-155 for regina.alexander@example.com
+2025-11-09 20:54:42,732 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:42,733 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Elizabeth Banks
+2025-11-09 20:54:44,502 - INFO - processor - (process_row) - Created Jira request CJP-156 for elizabeth.banks@example.com
+2025-11-09 20:54:44,506 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:44,506 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Hannah Rodriguez
+2025-11-09 20:54:46,179 - INFO - processor - (process_row) - Created Jira request CJP-157 for hannah.rodriguez@example.com
+2025-11-09 20:54:46,183 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:46,185 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Charles Wood
+2025-11-09 20:54:47,890 - INFO - processor - (process_row) - Created Jira request CJP-158 for charles.wood@example.com
+2025-11-09 20:54:47,891 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:47,892 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - David Robles
+2025-11-09 20:54:49,856 - INFO - processor - (process_row) - Created Jira request CJP-159 for david.robles@example.com
+2025-11-09 20:54:49,858 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:49,859 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Robert Gonzalez
+2025-11-09 20:54:51,591 - INFO - processor - (process_row) - Created Jira request CJP-160 for robert.gonzalez@example.com
+2025-11-09 20:54:51,592 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:51,593 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Anthony Lopez
+2025-11-09 20:54:53,456 - INFO - processor - (process_row) - Created Jira request CJP-161 for anthony.lopez@example.com
+2025-11-09 20:54:53,458 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:53,459 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Beth Smith
+2025-11-09 20:54:55,426 - INFO - processor - (process_row) - Created Jira request CJP-162 for beth.smith@example.com
+2025-11-09 20:54:55,427 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:55,428 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kevin Nielsen
+2025-11-09 20:54:57,102 - INFO - processor - (process_row) - Created Jira request CJP-163 for kevin.nielsen@example.com
+2025-11-09 20:54:57,103 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:57,104 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - James Banks
+2025-11-09 20:54:58,780 - INFO - processor - (process_row) - Created Jira request CJP-164 for james.banks@example.com
+2025-11-09 20:54:58,785 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:54:58,787 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Victor Nguyen
+2025-11-09 20:55:00,532 - INFO - processor - (process_row) - Created Jira request CJP-165 for victor.nguyen@example.com
+2025-11-09 20:55:00,533 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:00,534 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Richard Daniel
+2025-11-09 20:55:02,238 - INFO - processor - (process_row) - Created Jira request CJP-166 for richard.daniel@example.com
+2025-11-09 20:55:02,239 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:02,240 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Katie Moreno
+2025-11-09 20:55:04,062 - INFO - processor - (process_row) - Created Jira request CJP-167 for katie.moreno@example.com
+2025-11-09 20:55:04,063 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:04,065 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - William Sexton
+2025-11-09 20:55:05,811 - INFO - processor - (process_row) - Created Jira request CJP-168 for william.sexton@example.com
+2025-11-09 20:55:05,815 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:05,818 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Julia Mccarthy
+2025-11-09 20:55:07,409 - INFO - processor - (process_row) - Created Jira request CJP-169 for julia.mccarthy@example.com
+2025-11-09 20:55:07,411 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:07,412 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michelle Ramsey
+2025-11-09 20:55:09,470 - INFO - processor - (process_row) - Created Jira request CJP-170 for michelle.ramsey@example.com
+2025-11-09 20:55:09,473 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:09,474 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Ryan Martinez
+2025-11-09 20:55:11,108 - INFO - processor - (process_row) - Created Jira request CJP-171 for ryan.martinez@example.com
+2025-11-09 20:55:11,109 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:11,110 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Glen Cox
+2025-11-09 20:55:12,730 - INFO - processor - (process_row) - Created Jira request CJP-172 for glen.cox@example.com
+2025-11-09 20:55:12,731 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:12,732 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Benjamin Bell
+2025-11-09 20:55:14,754 - INFO - processor - (process_row) - Created Jira request CJP-173 for benjamin.bell@example.com
+2025-11-09 20:55:14,759 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:14,761 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Deborah Chapman
+2025-11-09 20:55:16,456 - INFO - processor - (process_row) - Created Jira request CJP-174 for deborah.chapman@example.com
+2025-11-09 20:55:16,457 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:16,458 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Holly Davis
+2025-11-09 20:55:18,478 - INFO - processor - (process_row) - Created Jira request CJP-175 for holly.davis@example.com
+2025-11-09 20:55:18,479 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:18,480 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Hannah Ware
+2025-11-09 20:55:20,267 - INFO - processor - (process_row) - Created Jira request CJP-176 for hannah.ware@example.com
+2025-11-09 20:55:20,268 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:20,270 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michael Bradley
+2025-11-09 20:55:21,878 - INFO - processor - (process_row) - Created Jira request CJP-177 for michael.bradley@example.com
+2025-11-09 20:55:21,881 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:21,883 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Deborah Rose
+2025-11-09 20:55:23,943 - INFO - processor - (process_row) - Created Jira request CJP-178 for deborah.rose@example.com
+2025-11-09 20:55:23,944 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:23,945 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Robert Leonard
+2025-11-09 20:55:25,674 - INFO - processor - (process_row) - Created Jira request CJP-179 for robert.leonard@example.com
+2025-11-09 20:55:25,676 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:25,677 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - William Dickson
+2025-11-09 20:55:27,804 - INFO - processor - (process_row) - Created Jira request CJP-180 for william.dickson@example.com
+2025-11-09 20:55:27,805 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:27,806 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Kenneth Jacobson
+2025-11-09 20:55:29,594 - INFO - processor - (process_row) - Created Jira request CJP-181 for kenneth.jacobson@example.com
+2025-11-09 20:55:29,596 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:29,597 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Samuel Anderson
+2025-11-09 20:55:31,372 - INFO - processor - (process_row) - Created Jira request CJP-182 for samuel.anderson@example.com
+2025-11-09 20:55:31,373 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:31,374 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Javier Cole
+2025-11-09 20:55:33,087 - INFO - processor - (process_row) - Created Jira request CJP-183 for javier.cole@example.com
+2025-11-09 20:55:33,088 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:33,089 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michael Stafford
+2025-11-09 20:55:34,778 - INFO - processor - (process_row) - Created Jira request CJP-184 for michael.stafford@example.com
+2025-11-09 20:55:34,780 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:34,781 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Christopher Brewer
+2025-11-09 20:55:36,491 - INFO - processor - (process_row) - Created Jira request CJP-185 for christopher.brewer@example.com
+2025-11-09 20:55:36,496 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:36,498 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jennifer Wilson
+2025-11-09 20:55:38,132 - INFO - processor - (process_row) - Created Jira request CJP-186 for jennifer.wilson@example.com
+2025-11-09 20:55:38,133 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:38,134 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Mark Delgado
+2025-11-09 20:55:39,892 - INFO - processor - (process_row) - Created Jira request CJP-187 for mark.delgado@example.com
+2025-11-09 20:55:39,893 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:39,894 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Amanda Morales
+2025-11-09 20:55:41,369 - INFO - processor - (process_row) - Created Jira request CJP-188 for amanda.morales@example.com
+2025-11-09 20:55:41,370 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:41,371 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Christina Meyers
+2025-11-09 20:55:43,456 - INFO - processor - (process_row) - Created Jira request CJP-189 for christina.meyers@example.com
+2025-11-09 20:55:43,457 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:43,458 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Chad Bell
+2025-11-09 20:55:45,238 - INFO - processor - (process_row) - Created Jira request CJP-190 for chad.bell@example.com
+2025-11-09 20:55:45,239 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:45,240 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Stephanie Lambert
+2025-11-09 20:55:46,972 - INFO - processor - (process_row) - Created Jira request CJP-191 for stephanie.lambert@example.com
+2025-11-09 20:55:46,973 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:46,974 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Rebecca Chandler
+2025-11-09 20:55:49,159 - INFO - processor - (process_row) - Created Jira request CJP-192 for rebecca.chandler@example.com
+2025-11-09 20:55:49,161 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:49,162 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Betty Daniel
+2025-11-09 20:55:51,131 - INFO - processor - (process_row) - Created Jira request CJP-193 for betty.daniel@example.com
+2025-11-09 20:55:51,132 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:51,133 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Ronald Blankenship
+2025-11-09 20:55:52,744 - INFO - processor - (process_row) - Created Jira request CJP-194 for ronald.blankenship@example.com
+2025-11-09 20:55:52,745 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:52,746 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - John Carter
+2025-11-09 20:55:54,812 - INFO - processor - (process_row) - Created Jira request CJP-195 for john.carter@example.com
+2025-11-09 20:55:54,814 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:54,814 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Richard Baker
+2025-11-09 20:55:56,489 - INFO - processor - (process_row) - Created Jira request CJP-196 for richard.baker@example.com
+2025-11-09 20:55:56,493 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:56,496 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Randall Schroeder
+2025-11-09 20:55:58,545 - INFO - processor - (process_row) - Created Jira request CJP-197 for randall.schroeder@example.com
+2025-11-09 20:55:58,549 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:55:58,552 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Eric Freeman
+2025-11-09 20:56:00,096 - INFO - processor - (process_row) - Created Jira request CJP-198 for eric.freeman@example.com
+2025-11-09 20:56:00,098 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:00,098 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Wendy Jones
+2025-11-09 20:56:01,730 - INFO - processor - (process_row) - Created Jira request CJP-199 for wendy.jones@example.com
+2025-11-09 20:56:01,731 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:01,731 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Hannah Gibson
+2025-11-09 20:56:03,530 - INFO - processor - (process_row) - Created Jira request CJP-200 for hannah.gibson@example.com
+2025-11-09 20:56:03,531 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:03,532 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Tiffany Haney
+2025-11-09 20:56:05,259 - INFO - processor - (process_row) - Created Jira request CJP-201 for tiffany.haney@example.com
+2025-11-09 20:56:05,263 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:05,265 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Michael Duke
+2025-11-09 20:56:07,144 - INFO - processor - (process_row) - Created Jira request CJP-202 for michael.duke@example.com
+2025-11-09 20:56:07,147 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:07,147 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Alexa Berry
+2025-11-09 20:56:09,018 - INFO - processor - (process_row) - Created Jira request CJP-203 for alexa.berry@example.com
+2025-11-09 20:56:09,020 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:09,021 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Debra Moore
+2025-11-09 20:56:10,712 - INFO - processor - (process_row) - Created Jira request CJP-204 for debra.moore@example.com
+2025-11-09 20:56:10,716 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:10,718 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Jeffrey Villanueva
+2025-11-09 20:56:12,302 - INFO - processor - (process_row) - Created Jira request CJP-205 for jeffrey.villanueva@example.com
+2025-11-09 20:56:12,303 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:12,304 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Annette Wilson
+2025-11-09 20:56:13,937 - INFO - processor - (process_row) - Created Jira request CJP-206 for annette.wilson@example.com
+2025-11-09 20:56:13,938 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:13,939 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Wayne Elliott
+2025-11-09 20:56:15,755 - INFO - processor - (process_row) - Created Jira request CJP-207 for wayne.elliott@example.com
+2025-11-09 20:56:15,760 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:15,762 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Peter Melendez
+2025-11-09 20:56:17,490 - INFO - processor - (process_row) - Created Jira request CJP-208 for peter.melendez@example.com
+2025-11-09 20:56:17,492 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:17,492 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Amanda Thomas
+2025-11-09 20:56:19,129 - INFO - processor - (process_row) - Created Jira request CJP-209 for amanda.thomas@example.com
+2025-11-09 20:56:19,130 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:19,131 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Sharon Thornton
+2025-11-09 20:56:20,853 - INFO - processor - (process_row) - Created Jira request CJP-210 for sharon.thornton@example.com
+2025-11-09 20:56:20,854 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:20,855 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Alexis Mullins
+2025-11-09 20:56:22,486 - INFO - processor - (process_row) - Created Jira request CJP-211 for alexis.mullins@example.com
+2025-11-09 20:56:22,488 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:22,489 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - William Tucker
+2025-11-09 20:56:24,416 - INFO - processor - (process_row) - Created Jira request CJP-212 for william.tucker@example.com
+2025-11-09 20:56:24,417 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:24,418 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - John Wilson
+2025-11-09 20:56:26,102 - INFO - processor - (process_row) - Created Jira request CJP-213 for john.wilson@example.com
+2025-11-09 20:56:26,105 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:26,106 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Colleen Pace
+2025-11-09 20:56:27,935 - INFO - processor - (process_row) - Created Jira request CJP-214 for colleen.pace@example.com
+2025-11-09 20:56:27,940 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:27,942 - INFO - jira_helpers - (create_request_on_jira) - Creating Jira request: Phone equipment request - Benjamin Jackson
+2025-11-09 20:56:29,631 - INFO - processor - (process_row) - Created Jira request CJP-215 for benjamin.jackson@example.com
+2025-11-09 20:56:29,636 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:29,638 - INFO - tracking_manager - (finalize_tracking_after_run) - Finalized tracking: last_run_date=2025-11-09 processed_emails_same_date=[]
+2025-11-09 20:56:29,642 - INFO - state_manager - (write_tracking) - Tracking file successfully updated: C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-3-ticket-creation\tracking.json
+2025-11-09 20:56:29,643 - INFO - __main__ - (main) - Run complete.
