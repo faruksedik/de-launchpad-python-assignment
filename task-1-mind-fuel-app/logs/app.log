@@ -321,3 +321,284 @@
 2025-11-09 20:23:18,935 - INFO - email_sender - (send_summary_to_admin) - Summary email successfully sent to admin faruksedik@yahoo.com
 2025-11-09 20:23:18,935 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
 2025-11-09 20:23:18,936 - INFO - main - (<module>) - App finished at 2025-11-09 20:23:18 (Runtime: 5.52s)
+2025-11-13 20:43:30,554 - INFO - main - (<module>) - App started at 2025-11-13 20:43:30
+2025-11-13 20:43:30,555 - INFO - main - (setup_users) - Starting user setup...
+2025-11-13 20:43:30,644 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:30,664 - INFO - db - (init_db) - Table 'users' created or already exists.
+2025-11-13 20:43:30,665 - INFO - db - (init_db) - Table 'email_logs' created or already exists.
+2025-11-13 20:43:30,666 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:30,666 - INFO - db - (init_db) - Database initialized successfully.
+2025-11-13 20:43:30,701 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:30,716 - INFO - db - (add_user) - ℹUser 'faruksedik@yahoo.com' already exists. No insertion made.
+2025-11-13 20:43:30,721 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:30,721 - INFO - main - (setup_users) - User faruksedik@yahoo.com added successfully.
+2025-11-13 20:43:30,756 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:30,757 - INFO - db - (add_user) - ℹUser 'faruksedik@gmail.com' already exists. No insertion made.
+2025-11-13 20:43:30,759 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:30,759 - INFO - main - (setup_users) - User faruksedik@gmail.com added successfully.
+2025-11-13 20:43:30,794 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:30,796 - INFO - db - (add_user) - ℹUser 'sedikjafar@gmail.com' already exists. No insertion made.
+2025-11-13 20:43:30,796 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:30,796 - INFO - main - (setup_users) - User sedikjafar@gmail.com added successfully.
+2025-11-13 20:43:30,938 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:30,940 - INFO - db - (add_user) - ℹUser 'matthewtoba5@gmail.com' already exists. No insertion made.
+2025-11-13 20:43:30,941 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:30,942 - INFO - main - (setup_users) - User matthewtoba5@gmail.com added successfully.
+2025-11-13 20:43:30,942 - INFO - main - (setup_users) - All users added successfully.
+2025-11-13 20:43:30,943 - INFO - main - (setup_users) - User setup completed successfully.
+2025-11-13 20:43:30,943 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Started ===
+2025-11-13 20:43:30,944 - INFO - quotes - (fetch_quotes) - Starting fetch from ZenQuotes API (limit=20, timeout=10s)...
+2025-11-13 20:43:31,012 - ERROR - quotes - (fetch_quotes) - Connection error while reaching ZenQuotes API: HTTPSConnectionPool(host='zenquotes.io', port=443): Max retries exceeded with url: /api/quotes/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019E1CF5C790>: Failed to resolve 'zenquotes.io' ([Errno 11002] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11002] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000019E1CF5C790>: Failed to resolve 'zenquotes.io' ([Errno 11002] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='zenquotes.io', port=443): Max retries exceeded with url: /api/quotes/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019E1CF5C790>: Failed to resolve 'zenquotes.io' ([Errno 11002] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-1-mind-fuel-app\quotes.py", line 45, in fetch_quotes
+    resp = requests.get(ZEN_QUOTES_URL, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='zenquotes.io', port=443): Max retries exceeded with url: /api/quotes/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019E1CF5C790>: Failed to resolve 'zenquotes.io' ([Errno 11002] getaddrinfo failed)"))
+2025-11-13 20:43:31,041 - ERROR - main - (run_quote_dispatch) - Unexpected error in quote dispatch workflow: Unable to connect to ZenQuotes API. Check your internet connection or API status.
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11002] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000019E1CF5C790>: Failed to resolve 'zenquotes.io' ([Errno 11002] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='zenquotes.io', port=443): Max retries exceeded with url: /api/quotes/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019E1CF5C790>: Failed to resolve 'zenquotes.io' ([Errno 11002] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-1-mind-fuel-app\quotes.py", line 45, in fetch_quotes
+    resp = requests.get(ZEN_QUOTES_URL, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\venv\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='zenquotes.io', port=443): Max retries exceeded with url: /api/quotes/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019E1CF5C790>: Failed to resolve 'zenquotes.io' ([Errno 11002] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-1-mind-fuel-app\main.py", line 36, in run_quote_dispatch
+    quotes_list = quotes.fetch_quotes()
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\de-launchpad\launchpad-python-projects\task-1-mind-fuel-app\quotes.py", line 55, in fetch_quotes
+    raise Exception("Unable to connect to ZenQuotes API. Check your internet connection or API status.")
+Exception: Unable to connect to ZenQuotes API. Check your internet connection or API status.
+2025-11-13 20:43:31,047 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
+2025-11-13 20:43:31,049 - INFO - main - (<module>) - App finished at 2025-11-13 20:43:31 (Runtime: 0.49s)
+2025-11-13 20:43:53,412 - INFO - main - (<module>) - App started at 2025-11-13 20:43:53
+2025-11-13 20:43:53,412 - INFO - main - (setup_users) - Starting user setup...
+2025-11-13 20:43:53,453 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:53,454 - INFO - db - (init_db) - Table 'users' created or already exists.
+2025-11-13 20:43:53,455 - INFO - db - (init_db) - Table 'email_logs' created or already exists.
+2025-11-13 20:43:53,455 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:53,456 - INFO - db - (init_db) - Database initialized successfully.
+2025-11-13 20:43:53,491 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:53,493 - INFO - db - (add_user) - ℹUser 'faruksedik@yahoo.com' already exists. No insertion made.
+2025-11-13 20:43:53,494 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:53,494 - INFO - main - (setup_users) - User faruksedik@yahoo.com added successfully.
+2025-11-13 20:43:53,527 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:53,528 - INFO - db - (add_user) - ℹUser 'faruksedik@gmail.com' already exists. No insertion made.
+2025-11-13 20:43:53,529 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:53,529 - INFO - main - (setup_users) - User faruksedik@gmail.com added successfully.
+2025-11-13 20:43:53,565 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:53,566 - INFO - db - (add_user) - ℹUser 'sedikjafar@gmail.com' already exists. No insertion made.
+2025-11-13 20:43:53,567 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:53,567 - INFO - main - (setup_users) - User sedikjafar@gmail.com added successfully.
+2025-11-13 20:43:53,602 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:53,603 - INFO - db - (add_user) - ℹUser 'matthewtoba5@gmail.com' already exists. No insertion made.
+2025-11-13 20:43:53,604 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:43:53,604 - INFO - main - (setup_users) - User matthewtoba5@gmail.com added successfully.
+2025-11-13 20:43:53,604 - INFO - main - (setup_users) - All users added successfully.
+2025-11-13 20:43:53,605 - INFO - main - (setup_users) - User setup completed successfully.
+2025-11-13 20:43:53,605 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Started ===
+2025-11-13 20:43:53,606 - INFO - quotes - (fetch_quotes) - Starting fetch from ZenQuotes API (limit=20, timeout=10s)...
+2025-11-13 20:43:55,996 - DEBUG - quotes - (fetch_quotes) - API request sent to https://zenquotes.io/api/quotes/. Status code: 200
+2025-11-13 20:43:55,996 - DEBUG - quotes - (fetch_quotes) - ZenQuotes API response successfully parsed as JSON.
+2025-11-13 20:43:55,996 - INFO - quotes - (fetch_quotes) - Successfully fetched 20 quotes from ZenQuotes API.
+2025-11-13 20:43:55,999 - INFO - main - (run_quote_dispatch) - Fetched 20 quotes successfully from ZenQuotes API.
+2025-11-13 20:43:55,999 - INFO - main - (run_quote_dispatch) - Sending daily quotes...
+2025-11-13 20:43:56,000 - INFO - email_sender - (send_emails_to_subscribers) - Starting daily email delivery process...
+2025-11-13 20:43:56,038 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:43:56,058 - INFO - db - (get_eligible_subscribers) - Fetched 3 eligible subscribers for frequency 'daily'.
+2025-11-13 20:43:56,059 - INFO - email_sender - (send_emails_to_subscribers) - Found 3 eligible daily subscribers.
+2025-11-13 20:43:56,059 - DEBUG - quotes - (get_random_quote) - Selecting a random quote from the fetched quotes list.
+2025-11-13 20:43:56,060 - INFO - quotes - (get_random_quote) - Selected random quote by 'Eckhart Tolle': "People don't realize that now is all there ever is; there is no past or future except as memory or anticipation in your mind."
+2025-11-13 20:43:56,060 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@yahoo.com' (User ID: 1).
+2025-11-13 20:43:56,061 - DEBUG - email_sender - (send_email_with_retries) - Attempt 1/3 to send email to faruksedik@yahoo.com...
+2025-11-13 20:43:56,061 - DEBUG - email_sender - (build_message) - Building email message for recipient 'faruksedik@yahoo.com'.
+2025-11-13 20:43:56,071 - DEBUG - email_sender - (build_message) - Email message built successfully for faruksedik@yahoo.com.
+2025-11-13 20:43:59,986 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@yahoo.com (attempt 1).
+2025-11-13 20:44:00,125 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:00,141 - INFO - db - (log_email) - Email log created for 'faruksedik@yahoo.com' (status=sent, attempt=1). Log ID: 11
+2025-11-13 20:44:00,143 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:00,181 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:00,186 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=1.
+2025-11-13 20:44:00,188 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:00,188 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@yahoo.com
+2025-11-13 20:44:00,189 - DEBUG - quotes - (get_random_quote) - Selecting a random quote from the fetched quotes list.
+2025-11-13 20:44:00,189 - INFO - quotes - (get_random_quote) - Selected random quote by 'Carlos Ruiz Zafon': "The moment you stop to think about whether you love someone, you've already stopped loving that person forever."
+2025-11-13 20:44:00,189 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'faruksedik@gmail.com' (User ID: 2).
+2025-11-13 20:44:00,190 - DEBUG - email_sender - (send_email_with_retries) - Attempt 1/3 to send email to faruksedik@gmail.com...
+2025-11-13 20:44:00,190 - DEBUG - email_sender - (build_message) - Building email message for recipient 'faruksedik@gmail.com'.
+2025-11-13 20:44:00,191 - DEBUG - email_sender - (build_message) - Email message built successfully for faruksedik@gmail.com.
+2025-11-13 20:44:03,499 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to faruksedik@gmail.com (attempt 1).
+2025-11-13 20:44:03,535 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:03,539 - INFO - db - (log_email) - Email log created for 'faruksedik@gmail.com' (status=sent, attempt=1). Log ID: 12
+2025-11-13 20:44:03,540 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:03,574 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:03,577 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=2.
+2025-11-13 20:44:03,578 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:03,578 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to faruksedik@gmail.com
+2025-11-13 20:44:03,579 - DEBUG - quotes - (get_random_quote) - Selecting a random quote from the fetched quotes list.
+2025-11-13 20:44:03,579 - INFO - quotes - (get_random_quote) - Selected random quote by 'Lao Tzu': "To the mind that is still, the whole universe surrenders."
+2025-11-13 20:44:03,580 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'matthewtoba5@gmail.com' (User ID: 4).
+2025-11-13 20:44:03,580 - DEBUG - email_sender - (send_email_with_retries) - Attempt 1/3 to send email to matthewtoba5@gmail.com...
+2025-11-13 20:44:03,580 - DEBUG - email_sender - (build_message) - Building email message for recipient 'matthewtoba5@gmail.com'.
+2025-11-13 20:44:03,582 - DEBUG - email_sender - (build_message) - Email message built successfully for matthewtoba5@gmail.com.
+2025-11-13 20:44:06,977 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to matthewtoba5@gmail.com (attempt 1).
+2025-11-13 20:44:07,021 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:07,025 - INFO - db - (log_email) - Email log created for 'matthewtoba5@gmail.com' (status=sent, attempt=1). Log ID: 13
+2025-11-13 20:44:07,027 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:07,070 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:07,072 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=4.
+2025-11-13 20:44:07,087 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:07,087 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to matthewtoba5@gmail.com
+2025-11-13 20:44:07,088 - INFO - email_sender - (send_emails_to_subscribers) - Daily email summary: 3 sent, 0 failed.
+2025-11-13 20:44:07,088 - INFO - main - (run_quote_dispatch) - Sending weekly quotes...
+2025-11-13 20:44:07,088 - INFO - email_sender - (send_emails_to_subscribers) - Starting weekly email delivery process...
+2025-11-13 20:44:07,124 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:07,127 - INFO - db - (get_eligible_subscribers) - Fetched 1 eligible subscribers for frequency 'weekly'.
+2025-11-13 20:44:07,127 - INFO - email_sender - (send_emails_to_subscribers) - Found 1 eligible weekly subscribers.
+2025-11-13 20:44:07,128 - DEBUG - quotes - (get_random_quote) - Selecting a random quote from the fetched quotes list.
+2025-11-13 20:44:07,128 - INFO - quotes - (get_random_quote) - Selected random quote by 'Sigmund Freud': "Out of your vulnerabilities will come your strength."
+2025-11-13 20:44:07,128 - INFO - email_sender - (send_email_with_retries) - Preparing to send email to 'sedikjafar@gmail.com' (User ID: 3).
+2025-11-13 20:44:07,129 - DEBUG - email_sender - (send_email_with_retries) - Attempt 1/3 to send email to sedikjafar@gmail.com...
+2025-11-13 20:44:07,129 - DEBUG - email_sender - (build_message) - Building email message for recipient 'sedikjafar@gmail.com'.
+2025-11-13 20:44:07,131 - DEBUG - email_sender - (build_message) - Email message built successfully for sedikjafar@gmail.com.
+2025-11-13 20:44:10,376 - INFO - email_sender - (send_email_with_retries) - Email sent successfully to sedikjafar@gmail.com (attempt 1).
+2025-11-13 20:44:10,413 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:10,418 - INFO - db - (log_email) - Email log created for 'sedikjafar@gmail.com' (status=sent, attempt=1). Log ID: 14
+2025-11-13 20:44:10,419 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:10,457 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:10,460 - INFO - db - (update_last_sent) - Updated last_email_received_at for user_id=3.
+2025-11-13 20:44:10,461 - DEBUG - db - (conn_cursor) - Transaction committed successfully.
+2025-11-13 20:44:10,462 - INFO - email_sender - (send_emails_to_subscribers) - Email successfully sent to sedikjafar@gmail.com
+2025-11-13 20:44:10,462 - INFO - email_sender - (send_emails_to_subscribers) - Weekly email summary: 1 sent, 0 failed.
+2025-11-13 20:44:10,463 - INFO - main - (run_quote_dispatch) - Sending summary email to admin...
+2025-11-13 20:44:10,464 - INFO - email_sender - (send_summary_to_admin) - Generating daily summary report for 2025-11-13...
+2025-11-13 20:44:10,499 - INFO - db - (get_conn) - Successfully connected to database 'mindfuel_db' on host 'localhost:5432'.
+2025-11-13 20:44:10,505 - INFO - db - (get_logs_for_date) - Retrieved 4 log(s) for date 2025-11-13.
+2025-11-13 20:44:10,506 - INFO - email_sender - (send_summary_to_admin) - Fetched 4 log entries for 2025-11-13. Sent: 4, Failed: 0
+2025-11-13 20:44:10,507 - INFO - email_sender - (send_summary_to_admin) - Attempting to send summary email to admin: faruksedik@yahoo.com
+2025-11-13 20:44:13,787 - INFO - email_sender - (send_summary_to_admin) - Summary email successfully sent to admin faruksedik@yahoo.com
+2025-11-13 20:44:13,788 - INFO - main - (run_quote_dispatch) - === Quote Dispatch Workflow Finished ===
+2025-11-13 20:44:13,788 - INFO - main - (<module>) - App finished at 2025-11-13 20:44:13 (Runtime: 20.38s)

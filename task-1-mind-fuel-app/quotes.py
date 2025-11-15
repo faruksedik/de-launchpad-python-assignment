@@ -93,8 +93,6 @@ def fetch_quotes(timeout=10, limit=20):
     return quotes_list
 
 
-
-
 def get_random_quote(quotes_list):
     """
     Select and return a random quote from a list of quotes.
